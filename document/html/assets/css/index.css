@@ -1,0 +1,135 @@
+#document {
+  position: fixed;
+
+  padding: 2.037vmin;
+
+  width: 69.4444vmin;
+  height: 94.4444vmin;
+
+  border-radius: 0.463vmin;
+  background-color: #d9d9d9;
+  box-shadow: -0.3704vmin 0.463vmin 0.7407vmin 0.0926vmin rgba(0, 0, 0, 0.25)
+    inset;
+}
+
+#document .decorations .img-bg {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 57.6852vmin;
+  height: 56.4815vmin;
+
+  object-fit: contain;
+  opacity: 0.07;
+  z-index: -1;
+}
+
+#document .decorations .stamp {
+  position: absolute;
+
+  top: 9.4444vmin;
+  right: 1.2963vmin;
+
+  width: 20.0926vmin;
+  height: 20.0926vmin;
+
+  object-fit: contain;
+}
+
+#document .decorations .logo {
+  position: absolute;
+
+  width: 10.2778vmin;
+  height: 4.0741vmin;
+
+  right: 3.3333vmin;
+  bottom: 6.4815vmin;
+}
+
+#document > h2 {
+  margin-top: 1.3889vmin;
+
+  color: #000;
+  text-align: center;
+  font-family: 'Inria Sans';
+  font-size: 2.963vmin;
+  font-weight: 400;
+}
+
+#document > article {
+  margin: 2.5vmin 0 9.0741vmin;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 1.2037vmin;
+  font-weight: 400;
+}
+
+#document > h1 {
+  width: 48.1481vmin;
+  height: 7.4074vmin;
+
+  display: -webkit-box;
+
+  word-break: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 3.7037vmin;
+  font-weight: 700;
+
+  overflow: hidden;
+}
+
+#document > span {
+  margin-top: 2.5vmin;
+
+  width: 100%;
+  height: 42.5926vmin;
+
+  display: block;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 1.3889vmin;
+  font-weight: 400;
+
+  overflow-y: scroll;
+}
+
+#document > h4 {
+  margin-top: 1.8519vmin;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 1.3889vmin;
+  font-weight: 600;
+}
+
+#document > h3 {
+  margin-top: 1.3889vmin;
+
+  width: 50.9259vmin;
+
+  color: #000;
+  font-family: 'Alpha Brights';
+  font-size: 4.4444vmin;
+  font-weight: 400;
+}
+
+#document > h5 {
+  margin-top: 1.3889vmin;
+
+  color: #000;
+  font-family: Inter;
+  font-size: 1.3889vmin;
+  font-weight: 300;
+}
